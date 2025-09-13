@@ -61,6 +61,6 @@ int check_valid(const char ccNum[20]) {
 }
 
 int main(void) {
-  char ccNum[] = "5262 1600 5854 8136";
+  char ccNum[] = "4539 1488 0343 6467";
   printf("The cc is %s", check_valid(ccNum) ? "valid" : "invalid");
 }
