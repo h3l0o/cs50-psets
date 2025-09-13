@@ -10,7 +10,7 @@ what I know)
 #include <stdio.h>
 #include <string.h>
 
-int check_valid(const char ccNum[]) {
+int check_valid(const char ccNum[20]) {
   // Get cc number from user
 
   int length = strlen(ccNum);
