@@ -10,3 +10,5 @@ This repository contains my solutions for the **CS50x 2025 problem sets**, imple
 
 ---
 
+## NOTE: 
+This is my first time actually trying to learn c seriously, so these solutions are not optimized, made with best practices, or even probably correct sometimes, it's just for my own progress tracking and/maybe it'll help other people to get some new ideas.
