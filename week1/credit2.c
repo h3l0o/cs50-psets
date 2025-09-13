@@ -7,6 +7,7 @@ and cloud thing, but at the end it satisfys every rule of the psets (at least
 what I know)
 */
 
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -36,13 +37,25 @@ int check_valid(const char ccNum[]) {
   }
 
   // Go through each element and filter out non-digits
+
   for (int ccIndex = 0; ccIndex < length; ccIndex++) {
 
+    // Using ctype's isdigit() function rather than manually checking with the
+    // condition commented bellow
+
+    if (isdigit(ccNum[ccIndex])) {
+
+      clean_ccNum[write_index] = ccNum[ccIndex];
+      write_index++;
+    }
+
+    /*
     if (ccNum[ccIndex] >= '0' && ccNum[ccIndex] <= '9') {
 
       clean_ccNum[write_index] = ccNum[ccIndex];
       write_index++;
     }
+    */
   }
 
   for (int i = write_index - 2; i >= 0; i -= 2) {
