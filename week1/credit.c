@@ -1,7 +1,10 @@
 /*
-I know that I used arrays which where not used in the first week + 
-am not using the cs50.h because am trying to learn things and search for solutions even outside the scope of my knowledge and understanding new concepts on my own
-Note: I didn't actually submit them or check them using there vscode and cloud thing, but at the end it satisfys every rule of the psets (at least what I know)
+I know that I used arrays which where not used in the first week +
+am not using the cs50.h because am trying to learn things and search for
+solutions even outside the scope of my knowledge and understanding new concepts
+on my own Note: I didn't actually submit them or check them using there vscode
+and cloud thing, but at the end it satisfys every rule of the psets (at least
+what I know)
 */
 
 #include <stdio.h>
