@@ -5,8 +5,11 @@ This repository contains my solutions for the **CS50x 2025 problem sets**, imple
 ---
 
 ## Problem Sets Overview
-- **pset1/week1** – *Cash*: Calculate the minimum number of coins for change using the Greedy algorithm.
-- **pset1/week1** – *Credit*: Validate credit card numbers using the Luhn algorithm.
+- **pset1/week1** – *8. Cash*: Calculate the minimum number of coins for change using the Greedy algorithm. (less comf problem)
+- **pset1/week1** – *8. Credit*: Validate credit card numbers using the Luhn algorithm.                     (more comf problem)
+
+- *pset2/week2* - *1. Scrabble*: Calculate points for Scrabble-like game using provided points system.
+- *pset2/week2* - *2. Readability*: Evaluate texts and tell which grade level they are using The Coleman-Liau index equation.
 
 ---
 
