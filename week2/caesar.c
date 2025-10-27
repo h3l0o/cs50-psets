@@ -15,9 +15,6 @@ char *cipher_text(char text[], int key) {
     else if (islower(text[i]))
       cipher[i] = ((text[i] - 'a' + key) % 26) + 'a';
 
-    else if (isspace(text[i]))
-      cipher[i] = ' ';
-
     else
       cipher[i] = text[i];
   }
@@ -35,7 +32,7 @@ int main(int argc, char *argv[]) {
 
   //********Error checking********
 
-  for (int i = 0, n = strlen(argv[1]); i < n; i++) {
+  for (int i = 0, length = strlen(argv[1]); i < length; i++) {
     if (!isdigit(argv[1][i])) {
       printf("Usage ./ceasar key");
       return USAGE_ERROR;
